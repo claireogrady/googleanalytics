@@ -7,10 +7,8 @@
   height: 100vh;
   grid-template-areas:
   "heady heady heady"
-  "navvy mainy aside1"
-  "navvy mainy aside1"
-  "navvy mainy aside2"
-  "navvy mainy aside2"
+  "aside1 mainy mainy"
+  "aside1 mainy mainy"
   "footy footy footy";
   grid-template-columns:
     1fr       2fr       1fr;
