@@ -7,17 +7,13 @@
   height: 100vh;
   grid-template-areas:
   "heady heady heady"
-  "aside1 mainy aside1"
-  "aside1 mainy aside1"
+  "navvy mainy aside1"
+  "navvy mainy aside1"
   "navvy mainy aside2"
   "navvy mainy aside2"
-  "aside1 aside2 aside3"
-  "aside1 aside2 aside3"
-  "aside4 aside5 aside6"
-  "aside4 aside5 aside6"
   "footy footy footy";
   grid-template-columns:
-    1fr       1fr       1fr;
+    1fr       2fr       1fr;
 }
 .main_body{
   text-align: center;
@@ -30,7 +26,7 @@
 header{
   grid-area: heady; 
   background:rgb(122, 48, 108);
-  color: black;
+  color: white;
 }
 nav {
   grid-area: navvy; 
@@ -40,7 +36,6 @@ main {grid-area: mainy;
   background: rgb(240, 234, 182); 
   max-height: 100%;
 }
-
 #aside1 {grid-area: aside1; 
   background: rgb(185, 207, 212);
   text-align: center;
@@ -49,28 +44,6 @@ main {grid-area: mainy;
   background: rgb(175, 170, 185);
   text-align: center;
 }
-#aside3 {grid-area: aside3; 
-  background: rgb(185, 207, 212);
-  text-align: center;
-}
-#aside4 {grid-area: aside4; 
-  background: rgb(175, 170, 185);
-  text-align: center;
-}
-#aside5 {grid-area: aside5; 
-  background: rgb(185, 207, 212);
-  text-align: center;
-}
-#aside6 {grid-area: aside6; 
-  background: rgb(175, 170, 185);
-  text-align: center;
-}
-#aside7 {grid-area: aside7; 
-  background: rgb(185, 207, 212);
-  text-align: center;
-}
-
-
 footer {
   grid-area: footy; 
   background:rgb(122, 48, 108);
